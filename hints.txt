@@ -1,0 +1,5 @@
+set location using php
+
+$_SESSION['user_email'] = $email;
+    header("Location: your_location");
+
